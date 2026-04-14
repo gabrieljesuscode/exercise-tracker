@@ -3,6 +3,8 @@
 
 API RESTful para registro e consulta de exercícios físicos de usuários, desenvolvida como parte do currículo de APIs e Microsserviços do freeCodeCamp.
 
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/5c67e831-4ae7-4c46-996a-4e460ec13bb9" />
+
 ## Tecnologias Utilizadas
 
 * Node.js
@@ -62,6 +64,9 @@ Content-Type: application/x-www-form-urlencoded
 
 username=johndoe
 ```
+
+<img height="86" alt="image" src="https://github.com/user-attachments/assets/54396521-c321-421e-98b3-67910c11abe0" />
+
 ### Adicionar exercício
 ```
 POST /api/users/:_id/exercises
@@ -69,14 +74,21 @@ Content-Type: application/x-www-form-urlencoded
 
 description=Corrida&duration=30&date=2025-04-01
 ```
+
+<img height="143" alt="image" src="https://github.com/user-attachments/assets/c27f8c72-26d9-4a6d-96e1-0866b947818b" />
+
+
 ### Obter logs com filtros
 ```
 GET /api/users/:_id/logs?from=2025-01-01&to=2025-12-31&limit=10
 ```
 
+<img height="449" alt="image" src="https://github.com/user-attachments/assets/a3ded42b-8fe1-4a09-b88f-4e0ac5cc598a" />
+
+
 ### Deploy da Aplicação
 
-A aplicação está disponível online em: [Link da Vercel, Render ou similar]
+A aplicação está disponível online em: [https://exercise-tracker-liard.vercel.app/](https://exercise-tracker-liard.vercel.app/)
 
-Licença
-Este projeto foi desenvolvido para fins de estudo e portfólio.
+
+_Este projeto foi desenvolvido para fins de estudo e portfólio._
